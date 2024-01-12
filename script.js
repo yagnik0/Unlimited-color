@@ -9,6 +9,7 @@ const randomColors = function(){
         color += hex[Math.floor(Math.random()*16)]
     }
     return color;
+    
 }
 
 let intervalId;
@@ -30,3 +31,6 @@ const stopChangingColor = function() {
 
 btnStart.addEventListener('click',startChangingColor);
 btnStop.addEventListener('click',stopChangingColor);
+
+
+// Testing Async 
